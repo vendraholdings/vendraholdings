@@ -10,9 +10,9 @@ testing, stated assumptions, and corrections for multiple testing.
 | repo | what | status |
 |---|---|---|
 | **[quant](https://github.com/vendraholdings/quant)** | ML stock ranking on the S&P 500: ~2,000 LightGBM + MLX models a night, walk-forward with a 40-day embargo. Best: **Sharpe 1.03 after costs, Deflated Sharpe probability 99.9%** | live |
-| earnings-vol | earnings event study, post-earnings drift, realised vs implied earnings moves from my own daily option snapshots | building |
-| mlx-finance | deep learning for markets in MLX, plus MLX vs PyTorch-MPS benchmarks | next |
-| portfolio-risk | HRP / mean-variance / risk parity with costs, PCA factor risk model, VaR & ES backtests | next |
+| **[backtest-overfitting](https://github.com/vendraholdings/backtest-overfitting)** | How much of a backtest is luck? PBO via CSCV (12,870 splits), Deflated Sharpe, Harvey-Liu haircuts and Hansen SPA on the 1,979-model search above. Real signal at the family level (SPA p < 0.001), but **PBO 0.44**: the in-sample best is an average model out of sample. [Interactive site](https://vendraholdings.github.io/backtest-overfitting/) · [paper](https://github.com/vendraholdings/backtest-overfitting/blob/main/paper/paper.pdf) | live |
+| iv-surface | SVI / SSVI implied-volatility surfaces with static-arbitrage checks, from my own daily option snapshots | next |
+| earnings-vol | earnings event study, post-earnings drift, realised vs implied earnings moves | building |
 
 #### Stack
 
