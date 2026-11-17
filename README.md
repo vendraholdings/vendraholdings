@@ -1,8 +1,9 @@
-### Quant research & machine learning on Apple Silicon
+### AI & machine learning, with an interest in finance
 
-I build trading-research systems that are **honest about luck**: walk-forward testing, explicit costs,
-stated biases, and a Deflated Sharpe on every result. Heavy compute runs on Apple Silicon:
-LightGBM on the CPU, MLX on the GPU.
+I build AI and machine-learning systems: models, data pipelines, LLM agents, and the software and infrastructure
+around them. Finance is the domain I find most interesting to apply them to, because markets are noisy, adversarial
+and unforgiving of weak evaluation. Across projects I care about measuring results properly: out-of-sample
+testing, stated assumptions, and corrections for multiple testing.
 
 #### Projects (one repo each)
 
